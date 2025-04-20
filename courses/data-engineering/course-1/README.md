@@ -10,6 +10,10 @@
         ```sh
             source .venv/bin/activate
         ```
+    3 - install dependancies
+        ```sh
+            pip install -r requirements.txt
+        ```
 ## RUN BANKILY API
     ```sh
         uvicorn bankily-api:app --reload
