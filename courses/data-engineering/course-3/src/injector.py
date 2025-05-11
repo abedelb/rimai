@@ -30,9 +30,6 @@ def create_tables(conn):
 
 def inject_data(table_name, conn, s3):
 
-    # Connect to MinIO S3
-
-
     cursor = conn.cursor()
     print(f"✅ Start injecting data for {table_name}")
     # List all .json files in bucket

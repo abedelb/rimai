@@ -45,6 +45,6 @@ provider "postgresql" {
   sslmode         = "disable"
 }
 
-resource "postgresql_database" "core-db" {
+resource "postgresql_database" "analytic-db" {
   name = "analytics"
 }
