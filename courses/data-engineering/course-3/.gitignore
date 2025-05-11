@@ -1,0 +1,3 @@
+.terraform**
+.venv/
+postgres_data**
