@@ -6,7 +6,7 @@
         "category": "text",
         "ean": "text",
         "price": "float",
-        "quantity": "int DEFAULT 5000",
+        "quantity": "int",
         "rating": "float",
         "title": "text",
         "vendor": "text"
